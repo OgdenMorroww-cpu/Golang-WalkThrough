@@ -3,15 +3,36 @@ package arrays
 import "fmt"
 
 func MyArrays() {
-	myNumbers := [10]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	var a [2]string
+	a[0] = "Mercury"
+	a[1] = "Venus"
+	fmt.Println(a[0], a[1])
+	fmt.Println(a)
 
-	sum := 0
+	primes := [6]int{2, 3, 5, 7, 11, 13}
+	fmt.Println(primes)
 
-	for numbers := range myNumbers {
+	messages := [2]string{"Hello", "World"}
 
-		sum += numbers
+	fmt.Printf("Messages: %v\n", messages)
+
+	example := [...]string{"Pass", "Value", "Down"}
+
+	fmt.Printf("Examples %v\n", example)
+
+	quotes := [...]string{"A wise", "Sage", "Once", "Said"}
+
+	fmt.Printf("Quotes %q\n", quotes)
+
+	var myA [2][3][4]string
+
+	for i := 0; i < 2; i++ {
+		for j := 0; j < 3; j++ {
+			for k := 0; k < 4; k++ {
+				myA[i][j][k] = fmt.Sprintf("row %d - column %d - %d", i+1, j+1, k+1)
+			}
+		}
 	}
+	fmt.Printf("%q\n", myA)
 
-	fmt.Printf("Sum: %v\n", sum)
-	fmt.Printf("MyNumbers: %v\n", myNumbers)
 }

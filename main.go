@@ -20,5 +20,6 @@ func main() {
 	// structures.Compositions()
 	// structures.Examples()
 	// structures.ExampleTwo()
-	arrays.MyArrays()
+	// arrays.MyArrays()
+	arrays.MySlices()
 }
