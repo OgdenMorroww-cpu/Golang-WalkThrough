@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/OgdenMorroww-cpu/golangtypes"
+	"github.com/OgdenMorroww-cpu/arrays"
 )
 
 func main() {
@@ -12,5 +12,13 @@ func main() {
 	// exported.Exported()
 	// functions.Functions()
 	// mutability.Mutability()
-	golangtypes.Types()
+	// golangtypes.Types()
+	// golangtypes.Integers()
+	// conversions.Conversions()
+	// structures.Structures()
+	// structures.Initializing()
+	// structures.Compositions()
+	// structures.Examples()
+	// structures.ExampleTwo()
+	arrays.MyArrays()
 }
