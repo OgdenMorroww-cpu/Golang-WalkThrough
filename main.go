@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/OgdenMorroww-cpu/arrays"
+	"github.com/OgdenMorroww-cpu/mymaps"
 )
 
 func main() {
@@ -21,5 +21,8 @@ func main() {
 	// structures.Examples()
 	// structures.ExampleTwo()
 	// arrays.MyArrays()
-	arrays.MySlices()
+	// arrays.MySlices()
+	// ranges.MyRanges()
+	// mymaps.MyMaps()
+	mymaps.MyTest()
 }
